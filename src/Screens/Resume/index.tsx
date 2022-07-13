@@ -6,7 +6,7 @@ const styles: CSSTypes = {
 }
 const Resume = () => {
   return <div >
-    <a href= "dCaleb Ojukwu resume.docx" target="_blank" style={styles.workLink} download>
+    <a href= "/Caleb Ojukwu resume.docx" target="_blank" style={styles.workLink} download>
               {`My Resume`}
             </a>
   </div>;
