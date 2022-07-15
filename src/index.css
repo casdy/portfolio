@@ -32,12 +32,13 @@ body {
 }
 
 .but_n {
-    animation: bounce .3s ease infinite alternate;
+    animation: bounce .6s ease infinite alternate;
     background-color: rgb(111, 189, 181);
     text-decoration: dotted;
     width: 10%;
     height: 60%;
     border-radius: 0.7em;
+    position: absolute;
 }
 
 @keyframes bounce {

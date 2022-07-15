@@ -1,7 +1,7 @@
 import React from "react";
 import github from "../../assets/icons/github.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
-
+import resume from  "../../assets/icons/resume-svgrepo-com.svg";
 import twitter from "../../assets/icons/twitter.svg";
 import CSSTypes from "../../Types";
 
@@ -25,9 +25,18 @@ const styles: CSSTypes = {
     marginRight: "7vw",
     marginLeft: "7vw",
   },
-  h2: {
+  h1: {
     fontFamily: "PlayfairDisplay",
   },
+  h2: {
+    fontFamily: "OCR A Std, monospace",
+    fontSize: "6.0vh",
+    marginBottom: "2vh",
+    marginTop: "-2vh",
+    textShadow: "0 0 0.9vh #bfbfbf",
+    animation: "bounce .9s ease infinite alternate",
+  },
+  
   nameHeader: {
     fontFamily: "PlayfairDisplay",
     fontSize: "9vw",
@@ -54,7 +63,8 @@ const About = () => {
     <div style={styles.div}>
       <div style={styles.mainContent}>
         <section>
-          <h2 style={styles.h2}>Profile..</h2>
+          <h1 style={styles.h1}>Hi! My name is</h1>
+          <h2 style={styles.h2}> CALEB OJUKWU</h2>
           <p>
             I am a frontend developer currently living in Winnipeg, Manitoba Canada.
           </p>
@@ -110,10 +120,18 @@ const About = () => {
           >
             <img height="32" width="32" src={twitter} alt="Twitter link" />
           </a>
+          <a
+            href={"https://www.medium.com/@nnajiabraham"}
+            target={"_blank"}
+            rel={"noopener noreferrer"}
+            style={styles.workLink}
+          >
+            <img height="32" width="32" src={resume} alt="Resume link" />
+          </a>
         </section>
       </div>
       <section>
-        <h1 style={styles.nameHeader}>CALEB OJUKWU</h1>
+        <h3 style={styles.h2}></h3>
       </section>
     </div>
   );
