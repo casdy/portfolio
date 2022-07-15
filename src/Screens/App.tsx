@@ -32,9 +32,9 @@ const App = () => {
             {/* <Route path="/contributions">
               <Contributions />
             </Route> */}
-            { <Route path="/resume">
+            {/* <Route path="/resume">
               <Resume />
-            </Route> }  
+          </Route>*/ }  
           </Switch>
         </main>
       </div>

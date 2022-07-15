@@ -26,3 +26,70 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #003030;
 }
+
+.but_n a {
+    color: white;
+}
+
+.but_n {
+    animation: bounce .3s ease infinite alternate;
+    background-color: rgb(111, 189, 181);
+    text-decoration: dotted;
+    width: 10%;
+    height: 60%;
+    border-radius: 0.7em;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-o-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-ms-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.resume {
+    display: flex;
+    position: absolute;
+    flex-direction: edge;
+    width: 100%;
+    height: 10%;
+    background-color: #003030;
+}
