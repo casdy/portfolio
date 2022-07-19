@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+//import Skills from "../skills";
 import CSSTypes from "../Types";
 import About from "./About";
-import Resume from "./Resume";
+//import Resume from "./Resume";
 
 
 //const routes = [/*"About Me" ,"Contributions","Resume"*/];
@@ -27,7 +27,7 @@ const App = () => {
           <Switch>
             <Route path="/" exact>
               <About/>
-              <Resume/>
+              
             </Route>
             {/* <Route path="/contributions">
               <Contributions />

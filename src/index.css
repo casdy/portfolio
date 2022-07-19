@@ -24,7 +24,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #003030;
+    background-color: #748a8a;
 }
 
 .but_n a {
@@ -86,11 +86,20 @@ body {
     }
 }
 
-.resume {
+.skills {
     display: flex;
     position: absolute;
     flex-direction: edge;
     width: 100%;
     height: 10%;
     background-color: #003030;
+}
+
+.skill-grid {
+    display: flex;
+    justify-Content: center;
+    width: 50%;
+    height: 50%;
+    background-color: none;
+    align-items: center;
 }
