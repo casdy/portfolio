@@ -141,7 +141,7 @@ const styles: CSSTypes = {
     justifyContent: "space-between",
     flexDirection: "row",
     width: "50%",
-    marginTop: "2vh",
+    marginTop: "-1vh",
 
    
    
@@ -179,8 +179,8 @@ const About = () => {
         <section>
           <h1 style={styles.h1}>Hi! My name is</h1>
           <h2 style={styles.h2}> Caleb Ojukwu </h2>
-          <h3 style={styles.h3}> I like to build things that people use or play with on the web. 
-          <br/>Currently living in Winnipeg, Manitoba Canada.
+          <h3 style={styles.h3}> I like to build things that people use or play with on the web. <br/>
+          <br/>Currently living in Winnipeg, Manitoba Canada.<br/>
           <br/>View my profiles and connect with me.
           <div >
           <br/><br/>
