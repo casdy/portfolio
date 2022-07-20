@@ -11,7 +11,6 @@ import css from "../../assets/icons/css.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
 import pdf from  "../../assets/icons/pdf.svg";
 import twitter from "../../assets/icons/twitter.svg";
-import portfolio from "../../assets/icons/portfolio.svg";
 import CSSTypes from "../../Types";
 
 const styles: CSSTypes = {
