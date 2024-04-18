@@ -197,7 +197,7 @@ const About = () => {
             target={"_blank"}
             rel={"noopener noreferrer"}><img height="30" width="30" src={twitter} alt="Twitter link" />
           </a>
-          <a href={"https://drive.google.com/file/d/1lBeshiHsW_JPAw-L84dW0P1Zir9Yj3SH/view?usp="}
+          <a href={""}
             target={"_blank"}
             rel={"noopener noreferrer"}><img height="30" width="30" src={pdf} alt="Resume link" />
           </a>
